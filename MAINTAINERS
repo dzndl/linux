@@ -1236,7 +1236,7 @@ M:	James (Qian) Wang <james.qian.wang@arm.com>
 M:	Liviu Dudau <liviu.dudau@arm.com>
 L:	Mali DP Maintainers <malidp@foss.arm.com>
 S:	Supported
-T:	git git://linux-arm.org/linux-ld.git for-upstream/mali-dp
+T:	git git://anongit.freedesktop.org/drm/drm-misc
 F:	drivers/gpu/drm/arm/display/include/
 F:	drivers/gpu/drm/arm/display/komeda/
 F:	Documentation/devicetree/bindings/display/arm,komeda.txt
@@ -1247,7 +1247,7 @@ M:	Liviu Dudau <liviu.dudau@arm.com>
 M:	Brian Starkey <brian.starkey@arm.com>
 L:	Mali DP Maintainers <malidp@foss.arm.com>
 S:	Supported
-T:	git git://linux-arm.org/linux-ld.git for-upstream/mali-dp
+T:	git git://anongit.freedesktop.org/drm/drm-misc
 F:	drivers/gpu/drm/arm/
 F:	Documentation/devicetree/bindings/display/arm,malidp.txt
 F:	Documentation/gpu/afbc.rst
@@ -3108,9 +3108,9 @@ S:	Maintained
 F:	arch/riscv/net/
 
 BPF JIT for S390
+M:	Ilya Leoshkevich <iii@linux.ibm.com>
 M:	Heiko Carstens <heiko.carstens@de.ibm.com>
 M:	Vasily Gorbik <gor@linux.ibm.com>
-M:	Christian Borntraeger <borntraeger@de.ibm.com>
 L:	netdev@vger.kernel.org
 L:	bpf@vger.kernel.org
 S:	Maintained
@@ -8415,6 +8415,7 @@ L:	linux-fsdevel@vger.kernel.org
 T:	git git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
 S:	Supported
 F:	fs/iomap.c
+F:	fs/iomap/
 F:	include/linux/iomap.h
 
 IOMMU DRIVERS
@@ -14873,6 +14874,7 @@ F:	Documentation/devicetree/bindings/net/socionext,uniphier-ave4.txt
 
 SOCIONEXT (SNI) NETSEC NETWORK DRIVER
 M:	Jassi Brar <jaswinder.singh@linaro.org>
+M:	Ilias Apalodimas <ilias.apalodimas@linaro.org>
 L:	netdev@vger.kernel.org
 S:	Maintained
 F:	drivers/net/ethernet/socionext/netsec.c
